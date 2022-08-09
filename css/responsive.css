@@ -46,11 +46,6 @@
         font-size: 20px;
     }
 
-    /* .swiper {
-        width: 550px;
-        height: 724px;
-    } */
-
     .slide-header {
         font-size: 28px;
     }
@@ -58,5 +53,41 @@
     .slide-blurb {
         font-size: 20px;
     }
+
+}
+
+/* Desktop Breakpoint */
+
+@media screen and (min-width: 1200px){
+    /* Hero Styles */
+    .hero {
+        width: 50vw;
+        position: fixed;
+        left: 0;
+    }
+
+    .about, .projects, .contact-me {
+        width: 50vw;
+        margin-left: 50vw;
+        position: sticky;
+        top: 0;
+    }
+
+    .projects {
+        height: 101vh;
+    }
+
+    .gg-arrow-down {
+        display: none;
+    }
+
+    .section-header, .section-blurb {
+        font-size: 16px;
+    }
+
+    .projects-sub {
+        font-size: 16px;
+    }
+
 
 }
