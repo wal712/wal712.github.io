@@ -1,0 +1,255 @@
+/* Variables */
+:root {
+    --primary-light-100: #00ffa2;
+    --primary-light: #00d98a;
+    --primary-dark-100: #073642;
+    --primary-dark-200: #004466;
+    --primary-dark: #003048;
+    --accent-gray: #b5b6bd;
+    --accent-gray-100: #70727e;
+    --accent-gray-200: #46474f;
+
+    /* Arrow size */
+    --ggs: 2;
+}
+
+/* Reset */
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    scroll-behavior:smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Hero Page Styles */
+
+.hero {
+    width: 100vw;
+    height: calc(100vh + 2px);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 7fr 1fr;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    padding: 32px;
+}
+
+.nav-icon {
+    position: fixed;
+    top: 32px;
+    left: 32px;
+    z-index: 1000;
+
+    padding: 16px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+}
+
+.nav-line {
+    width: 28px;
+    height: 5px;
+    background: var(--primary-dark);
+}
+
+.nav-line:nth-child(2) {
+    margin: 5px 0;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-intro {
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.hero-sub {
+    margin-bottom: 32px;
+    color: var(--accent-gray);
+}
+
+.hero-button {
+    width: 180px;
+    height: 52px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid var(--primary-light);
+    border-radius: 32px;
+    transition: all .12s ease-in;
+}
+
+    /* Button Hover Effects */
+.hero-button:hover {
+    background: var(--primary-light);
+}
+
+.hero-button:hover .hero-link {
+    color: var(--primary-dark);
+}
+
+.hero-footer {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    color: var(--accent-gray);
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+    color: var(--primary-light);
+}
+
+.footer-contact {
+    font-size: 12px;
+}
+
+.footer-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* About Section Styles */
+
+.about {
+    width: 100vw;
+    /* max-width: 100vw; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    padding: 32px;
+}
+
+.about-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-header {
+    font-size: 32px;
+    color: var(--primary-dark);
+}
+
+.avatar {
+    width: 50%;
+    max-width: 235px;
+}
+
+.about-section {
+    padding: 8px 0;
+}
+
+.section-header {
+    color: var(--primary-dark);
+}
+
+.section-blurb {
+    color: var(--accent-gray-100);
+}
+
+/* Projects section styles */
+.projects {
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent-gray);
+}
+
+.projects-header {
+    font-size: 32px;
+    color: var(--primary-dark);
+}
+
+.projects-sub {
+    text-align: center;
+    color: var(--accent-gray-200);
+    margin: 12px 24px 32px 32px;
+}
+
+.swiper {
+    width: 300px;
+    height: 524px;
+}
+
+    /* Hide buttons on mobile */
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+    color: var(--primary-dark);
+}
+
+.slide-container {
+    width: 100%;
+    height: 90%;
+}
+
+.slide-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slide-info {
+    z-index: 2;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    width: 100%;
+    padding: 32px;
+    background: linear-gradient(0deg,#000,transparent);
+    color: #fff;
+}
+
+.slide-header {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Contact Section Styles */
+.contact-me {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-light);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    color: var(--primary-dark);
+}
+
+.contact-header {
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 30%;
+    font-size: 24px;
+    color: var(--accent-gray-100);
+}
+
+.grey-text {
+    font-size: 24px;
+    color: var(--primary-dark);
+}

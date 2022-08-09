@@ -1,0 +1,62 @@
+/* Ipad Breakpoint */
+
+@media screen and (min-width: 760px){
+    :root {
+        /* Arrow size */
+        --ggs: 3;
+    }
+
+    /* Hero styles */
+    .hero-intro {
+        font-size: 48px;
+    }
+
+    .hero-sub, .hero-link {
+        font-size: 20px;
+    }
+
+    .hero-button {
+        width: 200px;
+        height: 60px;
+    }
+
+    .footer-contact, .footer-link {
+        font-size: 16px;
+    }
+
+    /* About Styles */
+    /* .about-header {
+        font-size: 40px;
+    } */
+
+    .about-section {
+        padding: 16px 0;
+    }
+
+    .section-header, .section-blurb {
+        font-size: 20px;
+    }
+
+    /* Projects Styles */
+    /* .projects-header {
+        font-size: 40px;
+    } */
+
+    .projects-sub {
+        font-size: 20px;
+    }
+
+    /* .swiper {
+        width: 550px;
+        height: 724px;
+    } */
+
+    .slide-header {
+        font-size: 28px;
+    }
+
+    .slide-blurb {
+        font-size: 20px;
+    }
+
+}

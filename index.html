@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://css.gg/arrow-down.css' rel='stylesheet'>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Wilder Ledes</title>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="Home" class="hero">
+        <header class="hero-head">
+            <nav class="navbar">
+                <div class="nav-icon">
+                    <div class="nav-line"></div>
+                    <div class="nav-line"></div>
+                    <div class="nav-line"></div>
+                </div>
+            </nav>
+        </header>
+        <div class="hero-main">
+            <h1 class="hero-intro">Imagine. Design. Create.</h1>
+            <h2 class="hero-sub">My name's Wilder Ledes and I want to build your <br> modern websites and UI, all with the best frontend tech</h2>
+            <div class="hero-button">
+                <a href="#Contact" class="hero-link">Let's get to it</a>
+            </div>
+        </div>
+        <footer class="hero-footer">
+            <div class="arrow-container">
+                <a href="#About" class="arrow-link">
+                    <i class="gg-arrow-down"></i>
+                </a>
+            </div>
+            <div class="footer-contact">
+                Find me at my <a href="" class="footer-link">GitHub</a>
+            </div>
+        </footer>
+    </section>
+
+    <!-- ABOUT ME section -->
+    <section id="About" class="about">
+        <div class="about-header-container">
+            <h1 class="about-header">About me</h1>
+            <img src="imgs/avatar.svg" alt="My 2D avatar" class="avatar">
+        </div>
+        <div class="about-section">
+            <h2 class="section-header"> Skills</h2>
+            <p class="section-blurb">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, corrupti pariatur suscipit totam alias non, esse nesciunt nisi distinctio qui aliquam, nulla molestiae repudiandae. Id, mollitia nam incidunt quaerat illo voluptates culpa suscipit consectetur perspiciatis sit ex cumque modi dignissimos.
+            </p>
+        </div>
+        <div class="about-section">
+            <h2 class="section-header">Personal</h2>
+            <p class="section-blurb">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolorum officiis ipsam eos excepturi deleniti harum dolor quam quidem hic vitae sint vel natus inventore aperiam tenetur sapiente, numquam, culpa fugit nemo quia! Hic, voluptas? Eaque nisi vitae maxime! Vel.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTS section -->
+    <section id="Projects" class="projects">
+        <h1 class="projects-header">Projects</h1>
+        <h2 class="projects-sub">Flick through some of the small projects I've done</h2>
+        <div class="swiper-container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="slide-container">
+                        <a href="https://github.com/wal712/Memory-Game" class="slide-link" target="_blank">
+                            <img src="imgs/memory.JPG" alt="screenshot of card matching memory game" width="768" height="744" class="slide-img">
+                            <div class="slide-info">
+                                <h3 class="slide-header">
+                                    Memory Game
+                                </h3>
+                                <p class="slide-blurb">
+                                    Fun memory game made in vanilla javascript
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-container">
+                        <a href="https://github.com/wal712/snake" class="slide-link" target="_blank">
+                            <img src="imgs/snake.png" alt="screenshot of classic snake game" width="802" height="806" class="slide-img">
+                            <div class="slide-info">
+                                <h3 class="slide-header">
+                                    Snake
+                                </h3>
+                                <p class="slide-blurb">
+                                    Classic snake game made with the p5.js library
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-container">
+                        <a href="https://github.com/wal712/old-portfolio" class="slide-link" target="_blank">
+                            <img src="imgs/website.JPG" alt="Old portfolio website screenshot" width="850" height="876" class="slide-img">
+                            <div class="slide-info">
+                                <h3 class="slide-header">
+                                    Old Portfolio
+                                </h3>
+                                <p class="slide-blurb">
+                                    Previous version of this site, no frameworks used
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+              </div>
+        </div>
+    </section>
+
+    <!-- TODO: CONTACT ME section -->
+    <section id="Contact" class="contact-me">
+        <h1 class="contact-header">Contact Me</h1>
+        <div class="contact-container">
+            <p class="contact">
+                Email: <span class="grey-text">wilder@ledes.me</span>
+            </p>
+            <p class="contact">
+                Phone: <span class="grey-text">917-488-6044</span>
+            </p>
+        </div>
+    </section>
+</body>
+
+
+</html>
