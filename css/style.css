@@ -155,7 +155,7 @@ a {
 
 .avatar {
     width: 50%;
-    max-width: 235px;
+    max-width: 200px;
 }
 
 .about-section {
@@ -163,13 +163,15 @@ a {
 }
 
 .section-header {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--primary-dark);
     font-family: 'Tiro Gurmukhi', serif;
 }
 
 .section-blurb {
     color: var(--accent-gray-100);
+    margin: 16px 0;
+    text-indent: 50px;
 }
 
 /* Projects section styles */
