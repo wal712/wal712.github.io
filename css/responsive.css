@@ -11,7 +11,7 @@
         font-size: 48px;
     }
 
-    .hero-sub, .hero-link {
+    .hero-sub, .hero-link, .text-highlight {
         font-size: 20px;
     }
 
@@ -66,6 +66,10 @@
         left: 0;
     }
 
+    .hero-intro {
+        font-size: 40px;
+    }
+
     .about, .projects, .contact-me {
         width: 50vw;
         margin-left: 50vw;
@@ -81,7 +85,11 @@
         display: none;
     }
 
-    .section-header, .section-blurb {
+    .avatar {
+        max-width: 150px;
+    }
+
+    .section-blurb {
         font-size: 16px;
     }
 
