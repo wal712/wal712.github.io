@@ -170,7 +170,7 @@ a {
 
 .section-blurb {
     color: var(--accent-gray-100);
-    margin: 16px 0;
+    /* margin: 16px 0; */
     text-indent: 50px;
 }
 
