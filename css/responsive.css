@@ -37,10 +37,11 @@
         font-size: 20px;
     }
 
+    .section-blurb {
+        padding: 20px;
+    }
+
     /* Projects Styles */
-    /* .projects-header {
-        font-size: 40px;
-    } */
 
     .projects-sub {
         font-size: 20px;
